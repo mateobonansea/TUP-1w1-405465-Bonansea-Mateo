@@ -1,0 +1,59 @@
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\bin\Debug\VetApp.exe.config
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\bin\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\bin\Debug\VetApp.pdb
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.csproj.AssemblyReference.cache
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.Properties.Resources.resources
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.csproj.GenerateResource.cache
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.csproj.CoreCompileInputs.cache
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.pdb
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.Vistas.FrmAtenciones.resources
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.FrmVeterinaria.resources
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\bin\Debug\VetApp.exe.config
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\bin\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\bin\Debug\VetApp.pdb
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.csproj.AssemblyReference.cache
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.Properties.Resources.resources
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.FrmVeterinaria.resources
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.Vistas.FrmAtenciones.resources
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.Vistas.FrmMascota.resources
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.csproj.GenerateResource.cache
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.csproj.CoreCompileInputs.cache
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\TUP\PROGRAMACION 2\VetApp\VetApp\obj\Debug\VetApp.pdb
+C:\Users\Federico gonzalez\Desktop\VetApp\VetApp\obj\Debug\VetApp.Presentacion.FrmCliente.resources
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\bin\Debug\VetApp.exe.config
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\bin\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\bin\Debug\VetApp.pdb
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.csproj.AssemblyReference.cache
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.Presentacion.FrmCliente.resources
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.Properties.Resources.resources
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.FrmVeterinaria.resources
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.Vistas.FrmAtenciones.resources
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.csproj.GenerateResource.cache
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.csproj.CoreCompileInputs.cache
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\VeterinariaApp-V0.5\VetApp\obj\Debug\VetApp.pdb
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\bin\Debug\VetApp.exe.config
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\bin\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\bin\Debug\VetApp.pdb
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.csproj.AssemblyReference.cache
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.Properties.Resources.resources
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.FrmVeterinaria.resources
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.Vistas.FrmAtenciones.resources
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.csproj.GenerateResource.cache
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.csproj.CoreCompileInputs.cache
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.exe
+C:\Users\Federico gonzalez\Desktop\VetApp-405516-1w1\VetApp\VetApp\obj\Debug\VetApp.pdb
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\bin\Debug\VetApp.exe.config
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\bin\Debug\VetApp.exe
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\bin\Debug\VetApp.pdb
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.csproj.AssemblyReference.cache
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.Properties.Resources.resources
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.FrmVeterinaria.resources
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.Vistas.FrmAtenciones.resources
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.csproj.GenerateResource.cache
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.csproj.CoreCompileInputs.cache
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.exe
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.pdb
+C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.Presentacion.FrmConsultarMascotas.resources

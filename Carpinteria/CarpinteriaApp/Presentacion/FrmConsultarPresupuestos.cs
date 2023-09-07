@@ -26,7 +26,6 @@ namespace CarpinteriaApp.Presentacion
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            //validar campos de carga!!!
             List<Parametro> lst = new List<Parametro>();
             lst.Add(new Parametro("@fecha_desde", dtpFecDesde.Value.ToString("yyyyMMdd")));
             lst.Add(new Parametro("@fecha_hasta", dtpFecHasta.Value.ToString("yyyyMMdd")));
