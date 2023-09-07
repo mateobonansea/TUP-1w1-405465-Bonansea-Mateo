@@ -125,7 +125,6 @@
             this.grpFiltros.TabIndex = 2;
             this.grpFiltros.TabStop = false;
             this.grpFiltros.Text = "Filtros";
-           
             // 
             // label3
             // 
@@ -203,6 +202,7 @@
             this.btnSalir.TabIndex = 10;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FrmConsultarPresupuestos
             // 
