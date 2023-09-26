@@ -57,3 +57,15 @@ C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\V
 C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.exe
 C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.pdb
 C:\Users\MATEO\Documents\GitHub\Veterinaria-Aplicacion\VetApp\VetApp\obj\Debug\VetApp.Presentacion.FrmConsultarMascotas.resources
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\bin\Debug\VetApp.exe.config
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\bin\Debug\VetApp.exe
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\bin\Debug\VetApp.pdb
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.csproj.AssemblyReference.cache
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.Presentacion.FrmConsultarMascotas.resources
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.Properties.Resources.resources
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.FrmVeterinaria.resources
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.Vistas.FrmAtenciones.resources
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.csproj.GenerateResource.cache
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.csproj.CoreCompileInputs.cache
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.exe
+C:\Users\MATEO\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\VeterinariaApp\VetApp\obj\Debug\VetApp.pdb
