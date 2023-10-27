@@ -68,5 +68,14 @@ namespace CarpinteriaApp.Properties {
                 return ResourceManager.GetString("CadenaConexion", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-PHV80OV\SQLEXPRESS;Initial Catalog=Carpinteria_2023;Integrated Security=True.
+        /// </summary>
+        internal static string CadenaConexionCasa {
+            get {
+                return ResourceManager.GetString("CadenaConexionCasa", resourceCulture);
+            }
+        }
     }
 }

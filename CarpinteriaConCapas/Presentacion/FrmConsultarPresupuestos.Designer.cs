@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.dgvPresupuestos = new System.Windows.Forms.DataGridView();
-            this.btnConsultar = new System.Windows.Forms.Button();
-            this.grpFiltros = new System.Windows.Forms.GroupBox();
-            this.dtpFecDesde = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtCliente = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dtpFecHasta = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.ColNro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColAcciones = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnConsultar = new System.Windows.Forms.Button();
+            this.grpFiltros = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dtpFecHasta = new System.Windows.Forms.DateTimePicker();
+            this.txtCliente = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dtpFecDesde = new System.Windows.Forms.DateTimePicker();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPresupuestos)).BeginInit();
             this.grpFiltros.SuspendLayout();
             this.SuspendLayout();
@@ -66,109 +66,6 @@
             this.dgvPresupuestos.Size = new System.Drawing.Size(643, 164);
             this.dgvPresupuestos.TabIndex = 0;
             this.dgvPresupuestos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPresupuestos_CellContentClick);
-            // 
-            // btnConsultar
-            // 
-            this.btnConsultar.Location = new System.Drawing.Point(520, 62);
-            this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(117, 30);
-            this.btnConsultar.TabIndex = 1;
-            this.btnConsultar.Text = "Consultar";
-            this.btnConsultar.UseVisualStyleBackColor = true;
-            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
-            // 
-            // grpFiltros
-            // 
-            this.grpFiltros.Controls.Add(this.label3);
-            this.grpFiltros.Controls.Add(this.label2);
-            this.grpFiltros.Controls.Add(this.dtpFecHasta);
-            this.grpFiltros.Controls.Add(this.txtCliente);
-            this.grpFiltros.Controls.Add(this.label1);
-            this.grpFiltros.Controls.Add(this.dtpFecDesde);
-            this.grpFiltros.Controls.Add(this.btnConsultar);
-            this.grpFiltros.Location = new System.Drawing.Point(29, 17);
-            this.grpFiltros.Name = "grpFiltros";
-            this.grpFiltros.Size = new System.Drawing.Size(643, 106);
-            this.grpFiltros.TabIndex = 2;
-            this.grpFiltros.TabStop = false;
-            this.grpFiltros.Text = "Filtros";
-            // 
-            // dtpFecDesde
-            // 
-            this.dtpFecDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecDesde.Location = new System.Drawing.Point(105, 24);
-            this.dtpFecDesde.Name = "dtpFecDesde";
-            this.dtpFecDesde.Size = new System.Drawing.Size(100, 20);
-            this.dtpFecDesde.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Fecha Desde:";
-            // 
-            // txtCliente
-            // 
-            this.txtCliente.Location = new System.Drawing.Point(105, 68);
-            this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(355, 20);
-            this.txtCliente.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(280, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Fecha Hasta:";
-            // 
-            // dtpFecHasta
-            // 
-            this.dtpFecHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecHasta.Location = new System.Drawing.Point(357, 24);
-            this.dtpFecHasta.Name = "dtpFecHasta";
-            this.dtpFecHasta.Size = new System.Drawing.Size(100, 20);
-            this.dtpFecHasta.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(57, 72);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Cliente:";
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Location = new System.Drawing.Point(29, 326);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(117, 30);
-            this.btnEditar.TabIndex = 8;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = true;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(172, 326);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(117, 30);
-            this.btnEliminar.TabIndex = 9;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(555, 326);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(117, 30);
-            this.btnSalir.TabIndex = 10;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
             // 
             // ColNro
             // 
@@ -202,6 +99,110 @@
             this.ColAcciones.ReadOnly = true;
             this.ColAcciones.Text = "Ver Detalle";
             this.ColAcciones.UseColumnTextForButtonValue = true;
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.Location = new System.Drawing.Point(520, 62);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(117, 30);
+            this.btnConsultar.TabIndex = 1;
+            this.btnConsultar.Text = "Consultar";
+            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
+            // 
+            // grpFiltros
+            // 
+            this.grpFiltros.Controls.Add(this.label3);
+            this.grpFiltros.Controls.Add(this.label2);
+            this.grpFiltros.Controls.Add(this.dtpFecHasta);
+            this.grpFiltros.Controls.Add(this.txtCliente);
+            this.grpFiltros.Controls.Add(this.label1);
+            this.grpFiltros.Controls.Add(this.dtpFecDesde);
+            this.grpFiltros.Controls.Add(this.btnConsultar);
+            this.grpFiltros.Location = new System.Drawing.Point(29, 17);
+            this.grpFiltros.Name = "grpFiltros";
+            this.grpFiltros.Size = new System.Drawing.Size(643, 106);
+            this.grpFiltros.TabIndex = 2;
+            this.grpFiltros.TabStop = false;
+            this.grpFiltros.Text = "Filtros";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(57, 72);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Cliente:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(280, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Fecha Hasta:";
+            // 
+            // dtpFecHasta
+            // 
+            this.dtpFecHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFecHasta.Location = new System.Drawing.Point(357, 24);
+            this.dtpFecHasta.Name = "dtpFecHasta";
+            this.dtpFecHasta.Size = new System.Drawing.Size(100, 20);
+            this.dtpFecHasta.TabIndex = 5;
+            // 
+            // txtCliente
+            // 
+            this.txtCliente.Location = new System.Drawing.Point(105, 68);
+            this.txtCliente.Name = "txtCliente";
+            this.txtCliente.Size = new System.Drawing.Size(355, 20);
+            this.txtCliente.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Fecha Desde:";
+            // 
+            // dtpFecDesde
+            // 
+            this.dtpFecDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFecDesde.Location = new System.Drawing.Point(105, 24);
+            this.dtpFecDesde.Name = "dtpFecDesde";
+            this.dtpFecDesde.Size = new System.Drawing.Size(100, 20);
+            this.dtpFecDesde.TabIndex = 2;
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(29, 326);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(117, 30);
+            this.btnEditar.TabIndex = 8;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(172, 326);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(117, 30);
+            this.btnEliminar.TabIndex = 9;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(555, 326);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(117, 30);
+            this.btnSalir.TabIndex = 10;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FrmConsultarPresupuestos
             // 

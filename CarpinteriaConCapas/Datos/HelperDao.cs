@@ -14,7 +14,7 @@ namespace CarpinteriaApp.Datos
         private SqlConnection conexion;
         private HelperDao()
         {
-            conexion = new SqlConnection(Properties.Resources.CadenaConexion);
+            conexion = new SqlConnection(Properties.Resources.CadenaConexionCasa);
         }
         public static HelperDao ObtenerInstancia()
         {

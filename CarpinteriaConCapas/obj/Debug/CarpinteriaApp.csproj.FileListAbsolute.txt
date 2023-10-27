@@ -40,3 +40,16 @@ C:\Users\Gustavo\Source\Repos\TUP_PROGII2023\CarpinteriaApp1w1Capas\obj\Debug\Ca
 C:\Users\Gustavo\Source\Repos\TUP_PROGII2023\CarpinteriaApp1w1Capas\bin\Debug\CarpinteriaApp.exe.config
 C:\Users\Gustavo\Source\Repos\TUP_PROGII2023\CarpinteriaApp1w1Capas\bin\Debug\CarpinteriaApp.exe
 C:\Users\Gustavo\Source\Repos\TUP_PROGII2023\CarpinteriaApp1w1Capas\bin\Debug\CarpinteriaApp.pdb
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\bin\Debug\CarpinteriaApp.exe.config
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\bin\Debug\CarpinteriaApp.exe
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\bin\Debug\CarpinteriaApp.pdb
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.csproj.AssemblyReference.cache
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.Presentacion.FrmConsultarPresupuestos.resources
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.Presentacion.FrmDetallesPresupuesto.resources
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.Presentacion.FrmNuevoPresupuesto.resources
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.FrmPrincipal.resources
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.Properties.Resources.resources
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.csproj.GenerateResource.cache
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.csproj.CoreCompileInputs.cache
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.exe
+D:\INFORMACION NO BORRAR\Documents\GitHub\TUP-1w1-405465-Bonansea-Mateo\CarpinteriaConCapas\obj\Debug\CarpinteriaApp.pdb

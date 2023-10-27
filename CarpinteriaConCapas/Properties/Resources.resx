@@ -120,4 +120,7 @@
   <data name="CadenaConexion" xml:space="preserve">
     <value>Data Source=172.16.10.196;Initial Catalog=Carpinteria_2023;User ID=alumno1w1;Password=alumno1w1</value>
   </data>
+  <data name="CadenaConexionCasa" xml:space="preserve">
+    <value>Data Source=DESKTOP-PHV80OV\SQLEXPRESS;Initial Catalog=Carpinteria_2023;Integrated Security=True</value>
+  </data>
 </root>
