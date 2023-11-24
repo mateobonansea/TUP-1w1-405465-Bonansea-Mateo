@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alumno\\Desktop\\New folder\\CarpinteriaApi\\CarpinteriaApi.csproj": {}
+    "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\CarpinteriaApi\\CarpinteriaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alumno\\Desktop\\New folder\\BackEnd\\BackEnd.csproj": {
+    "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\BackEnd\\BackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\New folder\\BackEnd\\BackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\BackEnd\\BackEnd.csproj",
         "projectName": "BackEnd",
-        "projectPath": "C:\\Users\\alumno\\Desktop\\New folder\\BackEnd\\BackEnd.csproj",
-        "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumno\\Desktop\\New folder\\BackEnd\\obj\\",
+        "projectPath": "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\BackEnd\\BackEnd.csproj",
+        "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\BackEnd\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alumno\\Desktop\\New folder\\CarpinteriaApi\\CarpinteriaApi.csproj": {
+    "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\CarpinteriaApi\\CarpinteriaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\New folder\\CarpinteriaApi\\CarpinteriaApi.csproj",
+        "projectUniqueName": "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\CarpinteriaApi\\CarpinteriaApi.csproj",
         "projectName": "CarpinteriaApi",
-        "projectPath": "C:\\Users\\alumno\\Desktop\\New folder\\CarpinteriaApi\\CarpinteriaApi.csproj",
-        "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumno\\Desktop\\New folder\\CarpinteriaApi\\obj\\",
+        "projectPath": "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\CarpinteriaApi\\CarpinteriaApi.csproj",
+        "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\CarpinteriaApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,15 +83,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\alumno\\Desktop\\New folder\\BackEnd\\BackEnd.csproj": {
-                "projectPath": "C:\\Users\\alumno\\Desktop\\New folder\\BackEnd\\BackEnd.csproj"
+              "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\BackEnd\\BackEnd.csproj": {
+                "projectPath": "C:\\Users\\mateo\\source\\repos\\TUP-1w1-405465-Bonansea-Mateo\\Clase24_10_23\\BackEnd\\BackEnd.csproj"
               }
             }
           }
@@ -139,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
