@@ -1,0 +1,183 @@
+create procedure ps_HabDisponibles @desde date, @hasta date, @hotel int, @reserva int
+as
+begin
+select HABITACION_HOTEL.ID as 'Id_Habitacion',HABITACION_HOTEL.CODIGO as 'Codigo_Habitacion',
+HABITACION_HOTEL.CAMA_MAX,HABITACION_HOTEL.TELEFONO,
+CATEGORIA_HABITACIONES.ID as 'Id_Categoria',CATEGORIA_HABITACIONES.DESCRIPCION,CATEGORIA_HABITACIONES.PRECIO
+from HABITACION_HOTEL
+inner join PISOS_HOTEL on PISOS_HOTEL.ID=HABITACION_HOTEL.PISO
+inner join HOTELES on PISOS_HOTEL.HOTEL=HOTELES.ID
+inner join CATEGORIA_HABITACIONES on HABITACION_HOTEL.CATEGORIA=CATEGORIA_HABITACIONES.ID
+where HABITACION_HOTEL.ID not in 
+	(
+		select HABITACION from RESERVA_HABITACIONES 
+		inner join RESERVAS on RESERVAS.ID=RESERVA_HABITACIONES.RESERVA
+		where RESERVAS.ESTADO!=3 and RESERVAS.ID != @reserva and
+		(@desde between INGRESO and SALIDA or @hasta between INGRESO and SALIDA) 
+		or 
+		( INGRESO between @desde and @hasta or SALIDA between @desde and @hasta) 
+	) 
+and HOTELES.ID=@hotel and HOTELES.HABILITADO=1
+end;
+
+
+
+create procedure ps_InsertReserva
+@cliente int,
+@ingreso date,
+@salida date,
+@empleado int,
+@id int output
+as
+begin
+insert into RESERVAS(ESTADO,CLIENTE,INGRESO,SALIDA,FECHA_RESERVA,Empleado)
+values (1,@cliente,@ingreso,@salida,GETDATE(),@empleado);
+select @id= SCOPE_IDENTITY();
+end;
+
+
+
+create procedure ps_InsertReservaHabitacion
+@reserva int,
+@habitacion int,
+@monto int
+as
+begin
+insert into RESERVA_HABITACIONES(RESERVA,HABITACION,MONTO_HABITACION)
+values (@reserva,@habitacion,@monto);
+end;
+
+create procedure ps_InsertReservaCuenta
+@reserva int,
+@servicio int,
+@monto decimal(10,2),
+@bonificado bit,
+@cantidad int
+as
+begin
+insert into RESERVA_CUENTA(RESERVA,SERVICIO,MONTO,BONIFICADO,CANTIDAD)
+values (@reserva,@servicio,@monto,@bonificado,@cantidad);
+end;
+
+
+CREATE procedure ps_Reservas @desde date, @hasta date, @hotel int
+as
+BEGIN
+IF(@hotel !=0)
+BEGIN
+select RESERVAS.ID,RESERVAS.ESTADO,RESERVAS.CLIENTE,RESERVAS.INGRESO,RESERVAS.SALIDA,
+RESERVAS.FECHA_RESERVA,RESERVAS.Empleado,HOTELES.ID as IdHotel
+from RESERVAS
+inner join RESERVA_HABITACIONES on RESERVAS.ID=RESERVA_HABITACIONES.RESERVA
+inner join HABITACION_HOTEL on HABITACION_HOTEL.ID=RESERVA_HABITACIONES.HABITACION
+inner join PISOS_HOTEL on PISOS_HOTEL.ID=HABITACION_HOTEL.PISO
+inner join HOTELES on PISOS_HOTEL.HOTEL=HOTELES.ID
+where(
+(@desde between INGRESO and SALIDA or @hasta between INGRESO and SALIDA) or 
+( INGRESO between @desde and @hasta or SALIDA between @desde and @hasta) 
+)and HOTELES.ID=@hotel
+group by RESERVAS.ID,RESERVAS.ESTADO,RESERVAS.CLIENTE,RESERVAS.INGRESO,RESERVAS.SALIDA,
+RESERVAS.FECHA_RESERVA,RESERVAS.Empleado,HOTELES.ID
+RETURN
+END
+ELSE
+BEGIN
+select RESERVAS.ID,RESERVAS.ESTADO,RESERVAS.CLIENTE,RESERVAS.INGRESO,RESERVAS.SALIDA,
+RESERVAS.FECHA_RESERVA,RESERVAS.Empleado,HOTELES.ID as IdHotel
+from RESERVAS
+inner join RESERVA_HABITACIONES on RESERVAS.ID=RESERVA_HABITACIONES.RESERVA
+inner join HABITACION_HOTEL on HABITACION_HOTEL.ID=RESERVA_HABITACIONES.HABITACION
+inner join PISOS_HOTEL on PISOS_HOTEL.ID=HABITACION_HOTEL.PISO
+inner join HOTELES on PISOS_HOTEL.HOTEL=HOTELES.ID
+where(
+(@desde between INGRESO and SALIDA or @hasta between INGRESO and SALIDA) or 
+( INGRESO between @desde and @hasta or SALIDA between @desde and @hasta) 
+)
+group by RESERVAS.ID,RESERVAS.ESTADO,RESERVAS.CLIENTE,RESERVAS.INGRESO,RESERVAS.SALIDA,
+RESERVAS.FECHA_RESERVA,RESERVAS.Empleado,HOTELES.ID
+END
+END
+
+
+create procedure ps_ReservaHabitaciones @reserva int
+as
+select 
+rh.ID as 'IdResHab',
+rh.MONTO_HABITACION as 'montoHab',
+hh.ID as 'IdHabitacion',
+hh.CODIGO, hh.CAMA_MAX,
+hh.TELEFONO,ch.ID as 'IdCategoria',ch.DESCRIPCION as 'CategoriaDesc' 
+
+from RESERVA_HABITACIONES  rh
+inner join HABITACION_HOTEL hh on rh.HABITACION=hh.ID
+inner join CATEGORIA_HABITACIONES ch on hh.CATEGORIA=ch.ID
+where RESERVA= @reserva
+
+
+create procedure ps_ReservaCuentas @reserva int
+as
+select rc.ID as 'IdCuenta',
+rc.MONTO,
+rc.BONIFICADO,
+rc.CANTIDAD,
+ts.ID as 'IdSrv',
+ts.DESCRIPCION
+from RESERVA_CUENTA rc
+inner join TIPOS_SERVICIOS ts on rc.SERVICIO=ts.ID
+where RESERVA =@reserva
+
+
+create procedure ps_ReservaAnular @reserva int
+as
+update RESERVAS set ESTADO=3 where ID = @reserva
+
+
+create procedure ps_HotelSrv @idHotel int
+as
+select HOTEL_SERVICIOS.ID as hs_id,TIPOS_SERVICIOS.ID as ts_id,
+TIPOS_SERVICIOS.DESCRIPCION as ts_desc,PRECIO as hs_precio 
+from HOTEL_SERVICIOS
+inner join TIPOS_SERVICIOS on HOTEL_SERVICIOS.SERVICIO=TIPOS_SERVICIOS.ID 
+where HOTEL_SERVICIOS.HOTEL=@idHotel
+
+create procedure ps_Empleados
+as
+select legajo,DNI,NOMBRE,APELLIDO,TIPO_DNI,TIPO_DOCUMENTO 
+from EMPLEADO inner join TIPO_DOCUMENTOS on EMPLEADO.TIPO_DNI=TIPO_DOCUMENTOS.ID
+
+
+
+create trigger dis_FacturaAdd
+on facturas
+for insert
+as
+update RESERVAS set ESTADO=2 from 
+RESERVAS inner join inserted on RESERVAS.ID=inserted.RESERVA
+
+
+create procedure ps_UpdateReserva
+@ingreso date,
+@salida date,
+@id int
+as
+begin
+delete RESERVA_CUENTA where RESERVA = @id
+delete RESERVA_HABITACIONES where RESERVA = @id
+update RESERVAS set INGRESO = @ingreso, SALIDA = @salida,FECHA_RESERVA =GETDATE() where ID = @id;
+end;
+
+alter procedure ps_RepClientesFacturado @year int
+as
+begin
+select CONVERT(int,ROW_NUMBER() over(order by SUM(FACTURA_DETALLES.MONTO*FACTURA_DETALLES.CANTIDAD) desc)) as Posicion,
+IIF((CLIENTES.Razon_Social is not null and Clientes.razon_social !=''),CLIENTES.Razon_Social,CLIENTES.APELLIDO + SPACE(1)+NOMBRE) as Cliente, 
+SUM(FACTURA_DETALLES.MONTO*FACTURA_DETALLES.CANTIDAD) As Total,
+SUM(DATEDIFF(DAY,INGRESO,SALIDA)) as Noches, 
+CONVERT(decimal(20,2),SUM(FACTURA_DETALLES.MONTO*FACTURA_DETALLES.CANTIDAD)/SUM(DATEDIFF(DAY,INGRESO,SALIDA)))as Promedio
+from FACTURAS
+inner join FACTURA_DETALLES on FACTURAS.ID = FACTURA_DETALLES.FACTURA
+inner join CLIENTES on CLIENTES.ID = FACTURAS.CLIENTE
+inner join RESERVAS on FACTURAS.RESERVA = RESERVAS.ID
+where YEAR(FACTURAS.FECHA)=@year
+group by CLIENTES.ID,CLIENTES.APELLIDO,CLIENTES.NOMBRE,CLIENTES.Razon_Social
+end;

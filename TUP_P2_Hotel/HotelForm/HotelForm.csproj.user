@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="View\Clientes\frmAltaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Clientes\frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Clientes\frmEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Clientes\frmModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Consultas\frmConsultarReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Factura\FacturaView\FrmFacturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Factura\FacturaView\FrmViewFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Factura\frmNuevaFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Principal\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Reporte\frmReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Reserva\frmReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Reserva\frmNuevaReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Reserva\frmViewReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="DataSet\DataSet1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
